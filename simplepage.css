@@ -5,3 +5,13 @@
   margin-top: 20px;
   color: white;
 }
+.navbar-navbar-light-bg-faded {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-brand {
+  color: black
+}
