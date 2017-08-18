@@ -12,3 +12,13 @@ $(document).ready(function() {
     }
   });
 });
+function mouseOver1() {
+  document.getElementById('user').innerHTML = 'Education';
+}
+
+function mouseOut1() {
+  document.getElementById('user').innerHTML = '&#10096;';
+}
+$('#accordion .panel-default').on('click', function () {
+    $('#accordion .panel-collapse').collapse('toggle');
+});
