@@ -56,23 +56,25 @@ div.container-fluid{
   padding: 20px;
 }
 .definition {
-  padding-top: 60px;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding-bottom: 60px;
-  background-color: #28536B;
-  color: lightgrey;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: #28536B;
+  color: lightgrey;
+
   font-family: "Times New Roman";
   position: relative;
 }
+
 .word {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-left: 160px;
   padding-right: 160px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -81,6 +83,10 @@ div.container-fluid{
   background-color: lightgrey;
   color: #28536B;
   text-align: center;
+
+}
+.heading-panel{
+  padding-top: 30px;
 }
 
 * {box-sizing:border-box}
@@ -140,11 +146,11 @@ a:hover {
 }
 
 .story {
-  margin-top: 30px;
-
+  margin-top: 0px;
   background-color: white;
   font-size: 20px;
   position: relative;
+
 }
 .name {
   font-size: 150px;
@@ -186,13 +192,22 @@ a:hover {
 }
 .panel-title:hover {
      cursor: pointer;
-
 }
 .panel-title{
-  font-size: 20px;
+  font-size: 40px;
   padding-right: 50px;
   padding-left: 50px;
+  padding-top: 60px;
+  margin: 0px;
+}
+.panel-group{
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 .panel-body{
   padding: 120px;
+  margin: 40px;
+}
+.mySlides {
+  margin-top: 60px;
 }
