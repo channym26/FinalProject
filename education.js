@@ -24,6 +24,9 @@ function mouseOut1() {
 $('#accordion .panel-default').on('click', function () {
     $('#accordion .panel-collapse').collapse('toggle');
 });
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
 
 
 

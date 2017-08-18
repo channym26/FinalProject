@@ -38,6 +38,8 @@ text-decoration: none;
   overflow: hidden;
   margin-top: -3px;
     padding-top: 4px;
+    padding-top: 30px;
+    padding-bottom: 150px;
 }
 
 .navbar-fized {
