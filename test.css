@@ -69,6 +69,7 @@
   transition: right 400ms linear;
   color: white;
   font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #rtri:hover {
@@ -89,6 +90,7 @@
 	transition: left 400ms linear;
   color: white;
   font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #ltri:hover {
@@ -116,4 +118,5 @@ body {
   margin: 0;
   font: normal 40px/50px Arial, sans-serif;
   color: #999;
+  font-family: 'Raleway', sans-serif;
 }

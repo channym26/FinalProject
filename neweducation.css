@@ -179,10 +179,25 @@
   background-color: #E6CF8B;
 }
 .contacts{
-  background-color: #22264B;
+  background-color: #E8EDF3;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
   padding: 20px;
   margin-top: 0px;
+  list-style-type: none;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+.contactlist{
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+}
+.li {
+  font-family: 'Raleway', sans-serif;
+}
+.btn {
+  font-size: 17px;
 }
