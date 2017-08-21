@@ -188,6 +188,8 @@
   list-style-type: none;
   padding-left: 40px;
   padding-top: 40px;
+  padding-bottom: 40px;
+
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
 }
@@ -195,9 +197,40 @@
   list-style-type: none;
   font-family: 'Raleway', sans-serif;
 }
+.ventlist{
+  background-color: #B56969;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 0px;
+  list-style-type: none;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  color: #E8EDF3;
+}
 .li {
   font-family: 'Raleway', sans-serif;
 }
 .btn {
+  font-size: 17px;
+}
+.after{
+  background-color: #E8EDF3;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 0px;
+  list-style-type: none;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
 }
