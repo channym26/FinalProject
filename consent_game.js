@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <head>
 <style>
-div#test{ border:#5AB029 3px solid; padding:10px 40px 40px 40px; background-color:#E5FCE3; width:50%;}
+div#test{  background-color: #E8EDF3;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 0px;
+  list-style-type: none;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;}
 </style>
 <meta charset="utf-8"/>
 <title>Quiz</title>
