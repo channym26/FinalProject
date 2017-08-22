@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 <head>
-  <title> Consent Game </title>
-
-<style>
-div#test{
-  border:none;
-  padding:10px 40px 40px 40px;
-  background-color:#E6CF8B;
-  width:100%;
-  color: #22264B;
-}
-</style>
-
 <script type="text/javascript">
 var pos = 0;
 var correct = 0;
@@ -28,11 +16,9 @@ var questions = [
 // Question 5
   ["Devon and Taylor are thinking about taking it to the next level on their date night. They discuss how they feel about each other and both parties say 'yes' to engaging in sexual activity. Devon decides that they don't feel ready and Taylor gets upset, causing them to do something bad. Which of the following do you think Taylor did?", "Made Devon say okay because Taylor worked so hard to set up the date", "Accepted Devon's change of mind and suggested a movie instead", "Said 'okay'", "A"],
   ];
-
 function get(x){
   return document.getElementById(x);
 }
-
 function renderQuestion(){
   test = get("test");
   if(pos >= questions.length){
@@ -56,7 +42,6 @@ function renderQuestion(){
   test.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
   test.innerHTML += "<button onclick='checkAnswer()'>Submit Answer</button>";
 }
-
 function checkAnswer(){
   // use getElementsByName because we have an array which it will loop through
   choices = document.getElementsByName("choices");
@@ -65,7 +50,6 @@ function checkAnswer(){
       choice = choices[i].value;
     }
   }
-
   // checks if answer matches the correct choice
   if(choice == questions[pos][4]){
     //each time there is a correct answer this value increases
@@ -76,17 +60,107 @@ function checkAnswer(){
   // then the renderQuestion function runs again to go to next question
   renderQuestion();
 }
-
 window.addEventListener("load", renderQuestion, false);
-
 </script>
 
-<meta charset="utf-8"/>
-</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+integrity="sha384-rwoIResjU2yc3z8GV/NPeZWv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="ananymous">
+<link rel="stylesheet" type="text/css" href="neweducation.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title> Helpline- Consent Game </title>
+</head>
 <body>
-<h2 id="test_status"></h2>
+
+      <nav class="navbar navbar-default" role="navigation" style = "background-color:white;">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <hr>
+            <br>
+              <a href = "neweducation.html" style = "text-decoration: none; color: #22264B; font-family: 'Raleway', sans-serif;"><h1 class="w3-container w3-center w3-animate-top"> Education and Prevention</h1></a>
+              <br>
+            <hr>
+
+  <br>
+  <!-- <a href="tel:+2066195983">+2066195983</a> -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse w3-container w3-center w3-animate-top" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" style="font-family: 'Raleway', sans-serif;">
+              <li ><a href="test.html" style = "color: #B56969;">Home</a></li>
+              <!--ELLEN LINK YOUR GAME HERE: -->
+              <li><a href="consent_game.html" style = "color: #22264B">What is Consent?</a></li>
+              <li><a href="newstory.html" style = "color: #22264B">Story</a></li>
+              <li><a href="newhowhelp.html" style = "color: #22264B">How to Help</a></li>
+              <li><a href="https://donate.rainn.org/" style = "color: #22264B">Donate!</a></li>
+              <li ><a href="newhelp.html" style = "color: #B56969;">Help</a></li>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
+      </nav>
+  <br>
+  <br>
+
+  <div class="quiz w3-container w3-animate-left">
+    <h2><center><b>How well do you know consent?</b></center></h2>
+    <h4><center>Take this quiz and find out!</center></h4>
 <div id="test"></div>
+<h4 id="test_status"></h4>
+</div>
+
+<br>
+<hr>
+<br>
+<div class = "container">
+<div class = "row">
+  <div class = "col" style = "float:center;" >
+    <!--ELLEN LINK YOUR GAME HERE: -->
+    <a href="game.js" style = "text-decoration: none;">
+    <a href="consent_game.html" style = "text-decoration: none;"><div class = "square w3-container w3-center w3-animate-bottom" ><p style="padding-top:25px; padding-right:20px; padding-left:20px; font-size: 20px; font-family: 'Raleway', sans-serif;">What is consent? Take a quiz!<hr></p></div></a>
+  </div>
+  <div class = "col">
+    <a href="newstory.html" style = "text-decoration: none;"><div class = "square w3-container w3-center w3-animate-bottom" ><p style="padding-top:50px; padding-right:50px; padding-left:50px; font-size: 20px; text-decoration: none; font-family: 'Raleway', sans-serif;">Read a Story<hr></p></div></a>
+  </div>
+  <div class = "col ">
+    <a href="newhowhelp.html" style = "text-decoration: none;"><div class = "square w3-container w3-center w3-animate-bottom" ><p style="padding-top:50px; padding-right:30px; padding-left:30px; font-size: 20px; font-family: 'Raleway', sans-serif;">How to offer Help<hr></p></div></a>
+  </div>
+  <div class = "col">
+    <a href= "https://donate.rainn.org/"style = "text-decoration: none;">
+    <div class = "square w3-container w3-center w3-animate-bottom" ><p style="padding-top:50px; padding-right:30px; padding-left:30px; font-size: 20px; font-family: 'Raleway', sans-serif;">Donate at Rainn.org <hr></p></div></a>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="neweducation.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
