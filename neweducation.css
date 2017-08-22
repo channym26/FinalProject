@@ -80,7 +80,7 @@
 .square {
   width:200px;
   height:200px;
-  background-color: #B56969;
+  background-color: #8BA2E6;
   margin-bottom: 70px;
   text-align: center;
   margin-left: 30px;
@@ -204,7 +204,7 @@
   font-family: 'Raleway', sans-serif;
 }
 .ventlist{
-  background-color: #B56969;
+  background-color: #E6cf8b;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -216,7 +216,7 @@
   padding-bottom: 40px;
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
-  color: #E8EDF3;
+  color: #22264B;
 }
 .li {
   font-family: 'Raleway', sans-serif;

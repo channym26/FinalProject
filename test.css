@@ -74,14 +74,14 @@
 
 #rtri:hover {
   right: 10px;
-  border-bottom-color: #E6CF8B;
-  color: #22264B;
+  border-bottom-color: #8BA2E6;
+  color: white;
 
 }
 #rtri:active{
   right: 10px;
-  border-bottom-color: #E6CF8B;
-  color: #B56969;
+  border-bottom-color: #8BA2E6;
+  color: #8BA2E6;
 }
 #ltri {
   position: relative;
@@ -95,13 +95,13 @@
 
 #ltri:hover {
   left: -30px;
-  border-bottom-color: #E6CF8B;
-  color: #22264B;
+  border-bottom-color: #8BA2E6;
+  color: white;
 }
 #ltri:active{
   left: -30px;
-  border-bottom-color: #E6CF8B;
-  color: #B56969 ;
+  border-bottom-color: #8BA2E6;
+  color: #8BA2E6 ;
 }
 .container{
   float: center;
