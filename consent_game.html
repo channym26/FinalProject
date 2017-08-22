@@ -23,7 +23,10 @@ function renderQuestion(){
   test = get("test");
   if(pos >= questions.length){
     test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
+
+      test.innerHTML += "<a href = 'consent_game.html'> <button type='button' class='btn btn-warning'>Retake Quiz</button></a>";
     get("test_status").innerHTML = "Test completed";
+
     // resets the variable to allow users to restart the test
     pos = 0;
     correct = 0;
@@ -40,7 +43,8 @@ function renderQuestion(){
   test.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
   test.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
   test.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
-  test.innerHTML += "<button onclick='checkAnswer()'>Submit Answer</button>";
+  test.innerHTML += "<button onclick='checkAnswer()' type='button' class='btn btn-warning'>Submit Answer</button>";
+
 }
 function checkAnswer(){
   // use getElementsByName because we have an array which it will loop through
@@ -112,13 +116,13 @@ integrity="sha384-rwoIResjU2yc3z8GV/NPeZWv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEy
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse w3-container w3-center w3-animate-top" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav" style="font-family: 'Raleway', sans-serif;">
-              <li ><a href="test.html" style = "color: #B56969;">Home</a></li>
+              <li ><a href="test.html" style = "color: #8BA2E6;">Home</a></li>
               <!--ELLEN LINK YOUR GAME HERE: -->
               <li><a href="consent_game.html" style = "color: #22264B">What is Consent?</a></li>
               <li><a href="newstory.html" style = "color: #22264B">Story</a></li>
               <li><a href="newhowhelp.html" style = "color: #22264B">How to Help</a></li>
               <li><a href="https://donate.rainn.org/" style = "color: #22264B">Donate!</a></li>
-              <li ><a href="newhelp.html" style = "color: #B56969;">Help</a></li>
+              <li ><a href="newhelp.html" style = "color: #8BA2E6;">Help</a></li>
             </ul>
           </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container-fluid -->
