@@ -174,8 +174,8 @@
   margin-bottom: 20px;
 }
 .panel-body{
-  padding: 50px;
-  margin: 40px;
+  padding: 20px;
+  margin: 20px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -287,3 +287,26 @@ div#test{
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
 }
+.card-header {
+  padding-top:30px;
+  text-align: center;
+}
+#headingOne{
+  font-size: 10px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }

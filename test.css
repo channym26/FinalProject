@@ -29,7 +29,7 @@
   -ms-transform: rotate(-90px);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  padding-right: 105px;
+  padding-right: 90px;
   padding-bottom: 100px;
    z-index: 1;
 }
@@ -43,7 +43,7 @@
   -ms-transform: rotate(90px);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-  margin-left: 270px;
+  margin-left: 220px;
   margin-top: 100px;
 }
 .rotateimg-90 {
@@ -52,7 +52,7 @@
   -ms-transform: rotate(-90px);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: -150px;
 }
 .page-header {
@@ -120,3 +120,19 @@ body {
   color: #999;
   font-family: 'Raleway', sans-serif;
 }
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }

@@ -1,19 +1,3 @@
-$(document).ready(function() {
-
-  $(window).scroll(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the
-      //nav bar to stick.
-      console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 53) {
-      $('#nav_bar').addClass('navbar-fixed');
-    }
-    if ($(window).scrollTop() < 53) {
-      $('#nav_bar').removeClass('navbar-fixed');
-    }
-  });
-});
-// Ellen's crap down below~
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -41,3 +25,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+$('.collapse').collapse()
