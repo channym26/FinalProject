@@ -20,7 +20,7 @@
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
   padding-left: 40px;
-  padding-top: 45px;
+  padding-top: 40px;
    z-index: 1;
 }
 .rotatetext-90{
@@ -29,8 +29,8 @@
   -ms-transform: rotate(-90px);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  padding-right: 90px;
-  padding-bottom: 100px;
+  padding-right: 95px;
+  padding-bottom: 116px;
    z-index: 1;
 }
 .triangle p {
